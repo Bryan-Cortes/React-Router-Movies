@@ -52,7 +52,7 @@ export default function App () {
         <Switch>
 
           <Route path="/movies/:id">
-            <Movie />
+            <Movie movies = {[]}/>
           </Route>
 
           <Route  path="/">
